@@ -11,6 +11,7 @@ useEffect(() =>{
 
   return (
     <>
+    
     <div className="navbar">
         <div className="container">
             <h1 className="logo">SAM SAMUEL</h1>

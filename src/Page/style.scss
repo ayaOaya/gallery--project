@@ -1,5 +1,5 @@
 .page{
-    height: 600vh;
+    height: 490vh;
     width: 100vw;
     padding-top: 119vh;
     background-color: #040404;
@@ -37,6 +37,7 @@
         background-position: center center;
         background-size: cover;
         width: 55vw;
+        background-attachment: fixed;
     }
    .img3{
     background-image: url(../../public/img/pexels-simon-ratcliffe-5247738.jpg);
@@ -77,6 +78,7 @@
     background-position: center center;
     background-size: cover;
     width: 55vw;
+    background-attachment: fixed;
     .img5-h2{
         position: absolute;
         top: 340vh;
@@ -96,24 +98,45 @@
     }
    }
 
+.text-new{
+    padding-top: 140rem;
+}
+  .img-gall{
+    background-image: url(../../public/img/pexels-nikita-igonkin-15500488.jpg);
+    height: 55vh;
+    width: 26vw;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 500px;
+    position: absolute;
+    z-index: 4;
+    background-attachment: fixed;
 
-   .other-text{
-    margin-top: 135rem;
-    
-    line-height: 28px;
-    .size{
-        height: 3vh;
-        width: 1vw;
+  }
+  .new{
+    position: absolute;
+    left: 190px;
+    font-size: 244px;
+    z-index: 1;
+    font-style: italic;
+  }
+
+  .footer{
+    height: 100vh;
+    padding-top: 40rem;
+    .bg-img-footer{
+        background-image: url(../../public/img/pexels-thanos-ayers-3801165.jpg);
+        height: 100vh;
+        width: 100vw;
         background-size: cover;
         background-position: center center;
+        background-attachment: fixed;
+        .h1-footer{
+            text-align: center;
+        }
        
+ 
     }
-    .bg-im1{
-        background-image: url(../../public/img/pexels-prince-beguin-10411247.jpg);
-        float: right;
-    }
-    .bg-im2{
-        background-image: url(../../public/img/pexels-prince-beguin-10411247.jpg);
-    }
-   }
+  }
 }

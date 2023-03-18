@@ -34,11 +34,19 @@ export default function Page() {
   </div>
 
 
-<div className="other-text">
-<h3>Lorem ipsum <div className="bg-im1 size"></div>  sit amet consectetur  elit. Suscipit temporibus  <div className="bg-im2 size"></div> sint sunt placeat blanditiis quo repellat consequuntur, omnis voluptatibus perspiciatis id et aspernatur exercitationem.  <div className="bg-im3 size"></div>Excepturi deserunt saepe ad explicabo totam. Lorem ipsum  sit amet consectetur  <div className="bg-im4 size"></div> elit. Vitae praesentium est, fugit amet incidunt voluptate nesciunt exercitationem in cum nisi laudantium sint? Perferendis molestias voluptatum vitae  <div className="bg-im5 size"></div> </h3>
+<div className="text-new">
+  <div className="img-gall">
+  </div>
+  <h1 className="new">GALLER</h1>
 </div>
-
  
+
+
+
+ <div className="footer">
+  <div className="bg-img-footer">
+  </div>
+ </div>
 </div>
 
     </>

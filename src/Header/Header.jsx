@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 useEffect(() =>{
-  gsap.to(".header", {opacity:1, duration:1, clipPath:"polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)" })
+  gsap.to(".header", {delay:1.1, opacity:1, duration:1, clipPath:"polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)" })
 gsap.to(".bg-img", {opacity:1, delay:1.7 ,duration:1.4, clipPath:"polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)" })
 gsap.to(".title", {opacity:1, delay:1.3, duration:1 })
 gsap.to(".sub-title", {opacity:1, y:-30, delay:3.1, duration:1.3 })

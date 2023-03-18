@@ -10,6 +10,8 @@ export default function Loading() {
     useEffect(() =>{
         gsap.to(".first-page", { opacity:1, clipPath:"polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)", delay:1, duration:1})
         gsap.to(".title", { opacity:1, delay:1.6, duration:1})
+        gsap.to(".loader-wrapper", { opacity:0, delay:2.5, duration:1})
+
 
     })
    

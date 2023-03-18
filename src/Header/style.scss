@@ -3,6 +3,13 @@
     color: #ebebeb;
     height: 100vh;
     width: 100vw;
+    position: absolute;
+    top: 0;
+    padding-top: 110px;
+    z-index: 2;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+    opacity: 0;
+
 
     .container0{
         .bg-img{
@@ -25,6 +32,7 @@
             font-family: sans-serif;
             -webkit-text-fill-color: transparent;
             -webkit-text-stroke-width: 3px;
+            opacity: 0;
         }
 
         .sub-title{
@@ -43,6 +51,8 @@
         }
     }
 }
+
+
 
  
 

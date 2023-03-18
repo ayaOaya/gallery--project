@@ -6,7 +6,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 export default function Navbar() {
     gsap.registerPlugin(ScrollTrigger);
 useEffect(() =>{
-    gsap.to(".container", {opacity:1, delay:1.9 })
+    gsap.to(".container", {opacity:1, delay:2, duration:1.1 })
 })
 
   return (

@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <>
         
-<div className="page">
+<div className="page" data-scroll-section>
   <h1 className='h1'>Lorem ipsum  sit amet consectetur</h1>
   <p className="h1-p">Eius dolores beatae, accusamus ipsum.</p>
   <div className="images">

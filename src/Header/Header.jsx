@@ -19,7 +19,7 @@ gsap.to(".sub-title", {opacity:1, y:-30, delay:3.1, duration:1.3 })
   return (
    
     <>
-      <div className="header">
+      <div className="header" data-scroll-section>
       <div className="container0">
       <a href="#sections" ><div className="bg-img"></div></a> 
         <h1 className="title" >SAM SAMUEL</h1>

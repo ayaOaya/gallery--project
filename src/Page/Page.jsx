@@ -3,8 +3,7 @@ import "./style.scss"
 
 export default function Page() {
   return (
-    <>
-        
+    <> 
 <div className="page" data-scroll-section>
   <h1 className='h1'>Lorem ipsum  sit amet consectetur</h1>
   <p className="h1-p">Eius dolores beatae, accusamus ipsum.</p>
@@ -19,7 +18,6 @@ export default function Page() {
     <p className="h2-p2">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odit dolorem et sequi delectus illo praesentium, ullam, eaque natus dicta, consectetur earum? Fugit doloribus iusto neque ad, aliquid asperiores Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic dicta error labore tempora fugiat esse. Omnis, est sed corrupti accusamus quae velit sequi illo inventore magni voluptates, harum fuga earum!
     </p>
-
     </div>
     <a className='h2-link' href="/">more</a>
     </div>
@@ -32,23 +30,17 @@ export default function Page() {
       </div>
     </div>
   </div>
-
-
 <div className="text-new">
   <div className="img-gall">
   </div>
   <h1 className="new">GALLER</h1>
 </div>
- 
-
-
 
  <div className="footer">
   <div className="bg-img-footer">
   </div>
  </div>
 </div>
-
     </>
   )
 }

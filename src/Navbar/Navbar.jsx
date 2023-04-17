@@ -12,7 +12,7 @@ useEffect(() =>{
   return (
     <>
 
-    <div className="navbar" data-scroll-section>
+    <div className="navbar" >
         <div className="container">
             <h1 className="logo">SAM SAMUEL</h1>
             <ul className="ul">
